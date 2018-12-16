@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> get fit </title>
+		<style>
+		#body{
+			height: 100%;
+			width: 100%;
+			background-color: #ff330e;
+		}
+		.header{
+			height: 30%;
+
+		}
+		.article{
+			height: 70%
+		}
+		.footer{
+			height: 20%;
+		}
+		.nav{
+			text-align: center;
+		}
+		.nav a{
+			border-radius: 50px;
+			background-color:white;
+			color:black;
+			margin-right: 15px;
+		}
+		section {
+			text-align: center;
+		}
+
+
+
+		/* .circle{
+             width:[width of the element];       //The width Must be equal to the height//
+             height:[height of the element];
+             border-radius:[more than or equal to 50 % of the width or height];
+            -moz-border-radius:[more than or equal to 50 % of the width or height];
+            -webkit-border-radius:[more than or equal to 50 % of the width or height];
+            background-color:[circle color]; */
+.circle {
+	width: 100px;
+	height: 100px;
+	/*vertical-align: center;
+	background-color:red;
+	border-spacing: 50px;*/
+	border-radius: 50%;
+	border-spacing: 20px;
+	width:300px;
+	height:300px;
+	overflow: auto;
+}
+		</style>
+	</head>
+	<body id="body">
+		<header class="header">
+			<h1 style="text-align:center;">GET FIT</h1>
+		</header>
+		<hr>
+		<nav class="nav">
+			<a>HOME</a>
+			<a>ABOUT-US</a>
+			<a>NEWS</a>
+			<a>CONTACT-US</a>
+		</nav>
+		<hr>
+		<article class="article">
+			<section>
+				<h3>section unit</h3>
+				<a href="#" ><img src="images/think-different.jpg" class="circle"></a>
+				<a href="#" ><img src="images/think-different.jpg" class="circle"></a>
+				<a href="#" ><img src="images/think-different.jpg" class="circle"></a>
+			</section>
+		</article>
+		<hr>
+		<aside id="aside">aside section</aside>
+		<hr>
+		<footer class="footer">footer section</footer>
+
+	</body>
+</html>
